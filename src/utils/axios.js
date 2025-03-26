@@ -2,7 +2,7 @@ import axios from "axios";
 
 // تعيين رابط الـ API بناءً على بيئة التشغيل
 const API_URL = import.meta.env.VITE_API_URL;
-console.log(API_URL);
+console.log("Backend Url", import.meta.env.VITE_API_URL);
 
 const axiosInstance = axios.create({
   baseURL: API_URL, // يحدد العنوان الأساسي للطلبات
