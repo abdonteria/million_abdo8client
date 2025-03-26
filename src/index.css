@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
 
 @import "tailwindcss";
 
 :root {
-  font-family: "Noto Sans Arabic", "Poppins", sans-serif;
+  font-family: "El Messiri", "Poppins", sans-serif;
+  --pixel-font: "Jacquard 24", "Poppins", sans-serif;
+  --sec-arbic-font: "Noto Sans Arabic","Poppins", sans-serif;
+}
+
+html {
+  background-color: black;
 }
